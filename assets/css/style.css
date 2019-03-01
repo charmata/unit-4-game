@@ -1,6 +1,31 @@
 body {
   height: 100vh;
+  background-color: #dde1e4;
+}
+.row > div {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+#intro {
+  background-color: #84e296;
+}
+.stats {
+  background-color: #d4adcf;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+#crystals {
+  padding: 0;
 }
 #crystals img {
-  padding: 10px;
+  background-color: #856084;
+  margin: 0 20px 20px 0;
+  padding: 20px;
+  border-radius: 20px;
+}
+#total {
+  background-color: #c1cad6;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
