@@ -22,4 +22,8 @@ function newGame() {
 
 $(document).ready(function() {
   newGame();
+  $("#crystals img").on("click", function() {
+    gameData.total += gameData.crystals[$(this).attr("data-attr") - 1];
+    $("#score").text(gameData.total);
+  });
 });
